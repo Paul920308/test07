@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>範例</title>    
+    <style>
+    @keyframes myanimation{
+		0%   {background:red; left:0px; top:0px;}
+		20%  {background:yellow; left:95%; top:0px;}
+		40%  {background:blue; left:95%; top:40%;}
+		60%  {background:green; left:35%; top:75%;}
+		80%  {background:#00DB00; left:45%; top:75%;}
+		100% {background:#95CACA; left:0px; top:100%;}
+    }
+	.box {
+		width: 100px;
+	  	height: 100px;  
+	  	background-color: lightblue;
+	  	border: 1px dotted black; 
+	  	text-align: center;	 
+	  	line-height: 100px; 
+	  	position: absolute;	
+	  	animation: myanimation 6s ease-in-out alternate infinite; 
+	}
+    </style>    
+</head>
+
+<body>
+	<div class="box">正修科技大學</div>
+</body>
+
+</html>
